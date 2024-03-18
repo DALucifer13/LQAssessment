@@ -1,0 +1,260 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #07132b;
+    font-family: "Protest Revolution", sans-serif;
+    height: 100vh;
+    width: 90%;
+    background-image: url("images/back.png");
+    background-size: 100%;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.navi:hover {
+    color: #7319AC;
+}
+
+nav {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: black;
+    width: 100%;
+    margin: 0;
+    border: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    text-align: center;
+    color: white;
+    list-style-type: none;
+}
+
+.Header {
+    background-image:url("images/psy.png");
+    background-size: 100%;
+    background-position-y: 17.5%;
+    height: 10vh;
+    width: 100%;
+    display: inline-block;
+    color: #A4EAF3;
+    padding-bottom: 25px;
+    padding: 20px 0;
+}
+
+.headerText {
+    font-family: "Protest Revolution", sans-serif;
+    margin-left: 40%;
+    height: 50%;
+    grid-column-start: 1;
+    grid-column-end: 9;
+    font-size: 24;
+    color: #ffffff;
+    padding-top: 25px;
+    padding-bottom: 70px;
+}
+
+.TitleText {
+    text-align: center;
+}
+
+.comment {
+    width: 100%;
+    font-style: italic;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 40px 0;
+    border: 5px;
+    border-style: groove;
+    border-color: #4b4b4b;
+}
+
+
+.groupimg {
+    width: 100%;
+    height: 100%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: #ffffff;
+    border: 2px;
+    border-right: 0px;
+    border-color: #000000;
+    border-style: solid;
+}
+
+.groupimg>img {
+    padding-top: 1%;
+    padding-left: 1%;
+    width: 98%;
+    height: 98%;
+    border-radius: 50%;
+    border-bottom-right-radius: 0%;
+
+}
+
+.groupbloc {
+    
+    font-family: "Kode Mono", monospace;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% 13% 13% 14% 14% 13% 13% 10%;
+    padding-bottom: 5%;
+
+}
+
+.groupbit {
+    padding-bottom: 1%;
+    grid-column-start: 1;
+    grid-column-end: 9;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+}
+
+.group-inner {
+    grid-column-start: 3;
+    grid-column-end: 9;
+    margin-right: 10%;
+    background-color: #ffffff;
+    width: 80%;
+    height: 100%;
+    padding-left: 5%;
+    border: 2px;
+    border-left: 0px;
+    border-color: #000000;
+    border-style: solid;
+    font-size: 12;
+}
+
+.group-inner>p {
+    width: 85%;
+}
+
+.homeMain {
+    
+    font-family: "Kode Mono", monospace;
+    background-color: #1c2433;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    color: #1aa4ba;
+    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+}
+
+.hsummary {
+    height: auto;
+    width: 85%;
+    color: white;
+    padding-top: 2%;
+    margin-right: 80px;
+    font-size: 18px;
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 6;
+}
+
+
+.himage1 {
+    width: 100%;
+    grid-column-start: 6;
+    grid-column-end: 9;
+}
+
+.himage1i1 {
+    height: auto;
+    width: 70%;
+    border-radius: 100%;
+    filter: grayscale(.5);
+}
+
+.himage1i2 {
+    height: auto;
+    width: 70%;
+    border-radius: 100%;
+}
+
+
+
+.landMain {
+    background-color: #1c2433;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    color: #15851c;
+}
+
+.land-inner {
+    background-color: #152035;
+    border-color: #000000;
+}
+
+.landimg {
+    background-color: #152035;
+    border-color: #000000;
+}
+
+.waterMain {
+    background-color: #1c2433;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    color: #329cff;
+}
+
+.water-inner {
+    background-color: #152035;
+    border-color: #000000;
+}
+
+.waterimg {
+    background-color: #152035;
+    border-color: #000000;
+}
+
+.ropeMain {
+    background-color: #1c2433;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    color: #b1761e;
+}
+
+.rope-inner {
+    background-color: #152035;
+    border-color: #000000;
+}
+
+.ropeimg {
+    background-color: #152035;
+    border-color: #000000;
+}
+
+.aboutMain {
+    background-color: #1c2433;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    color: #a3239d;
+}
+
+.about-inner {
+    background-color: #152035;
+    border-color: #000000;
+}
+
+.aboutimg {
+    background-color: #152035;
+    border-color: #000000;
+}
